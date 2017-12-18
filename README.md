@@ -1,3 +1,3 @@
 # README
 
-This is and Example of how to use vue typescript and turbolinks combined in a rails app
+This is an example of how to use vue with typescript and turbolinks combined in a rails app
