@@ -7,19 +7,4 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-import TurbolinksAdapter from 'vue-turbolinks';
-import Vue from 'vue/dist/vue.esm'
-import App from '../app.vue'
-
-Vue.use(TurbolinksAdapter)
-
-document.addEventListener('turbolinks:load', function() {
-  var element = document.querySelector('#hello')
-  if (element != undefined) {
-    const app = new Vue({
-      el: element,
-      template: '<App/>',
-      components: { App }
-    })
-  }
-});
+require('../components')
