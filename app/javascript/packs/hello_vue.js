@@ -60,11 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
 // Vue.use(TurbolinksAdapter)
 //
 // document.addEventListener('turbolinks:load', () => {
-//   const app = new Vue({
-//     el: '#hello',
-//     data: {
-//       message: "Can you say hello?"
-//     },
+//   var element = document.getElementById("hello")
+//   var app = new Vue({
+//     el: element,
+//     template: '<App/>',
 //     components: { App }
 //   })
 // })
